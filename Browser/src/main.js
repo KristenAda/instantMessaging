@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Login from './components/Login.vue'//登录页
 //组件import放下面
 import iView from 'iview'
 import ElementUI from 'element-ui'
@@ -15,8 +16,15 @@ Vue.config.productionTip = false
 Vue.use(iView)
 //element
 Vue.use(ElementUI)
+// new Vue({
+//   router,
+//   store,
+//   render: h => h(App)
+// }).$mount('#app')
+
+//登录页
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(Login)
 }).$mount('#app')
