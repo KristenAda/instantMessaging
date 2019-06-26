@@ -1,7 +1,9 @@
 <template>
   <div>
-    <Input v-model="value" placeholder="Enter something..." style="width: 300px" />
-    <Button type="success" long @click="request">SUBMIT</Button>
+    <!--<Input v-model="value" placeholder="Enter something..." style="width: 300px" />-->
+    <el-input type="text"  v-model="value" placeholder="Enter something..." style="width:200px"/>
+    <!--<Button type="success" long @click="request">SUBMIT</Button>-->
+    <el-button type="button" long @click="request">SUBMIT</el-button>
     <ul>
       <li v-for="chat in this.$store.state.chatRecord" :key="chat" :value="chat">{{chat}}</li>
     </ul>
