@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import Login from './components/Login.vue'//登录页
+import Demo from './components/Demo.vue'//登录页
 //组件import放下面
 import iView from 'iview'
 import ElementUI from 'element-ui'
@@ -26,5 +27,5 @@ Vue.use(ElementUI)
 new Vue({
   router,
   store,
-  render: h => h(Login)
+  render: h => h(Demo)
 }).$mount('#app')
