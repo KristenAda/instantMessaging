@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <el-link type="primary" href="/">Home</el-link>&nbsp;
-      <el-link type="success" href="/about">About</el-link>
+    <!-- <div id="nav"> -->
+      <!-- <el-link type="primary" href="/user">Home</el-link>&nbsp;
+      <el-link type="success" href="/about">About</el-link> -->
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
-    </div>
+    <!-- </div> -->
     <router-view/>
   </div>
   

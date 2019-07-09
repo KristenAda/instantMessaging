@@ -22,7 +22,7 @@ export default {
   },
   created(){
     let that = this;
-    that.ws = new WebSocket('ws://localhost:8080/ws');
+    that.ws = new WebSocket('ws://localhost:9999/ws');
     let w = that.ws;
     let c = 0;
     w.onopen = function () {

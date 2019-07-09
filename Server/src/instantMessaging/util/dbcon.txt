@@ -1,0 +1,19 @@
+//数据库连接配置是一个json字符串，一个数据库连接就是一个json对象，最外层是用一个json数组包裹的
+[{
+    //这是数据库连接的别名，可随便定义
+  "name": "ceshi",
+  //数据库的品牌
+  "data": "postgres",
+  //连接数据库的用户名
+  "user": "postgres",
+  //数据库的库名
+  "dbname": "ceshi",
+  //连接数据库的密码
+  "password": "zxj291339087",
+  //连接数据库的端口号
+  "port": "5432",
+  //是否支持ssl连接，disable是不支持
+  "sslmode": "disable",
+  //主机名
+  "host": "localhost"
+}]
